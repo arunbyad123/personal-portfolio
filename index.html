@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+  <a href="#" class="logo">Portfolio</a>
+  <div class="toggle" onclick="toggleMenu();"></div>
+  <ul class="menu">
+    <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+    <li><a href="#about" onclick="toggleMenu();">About</a></li>
+    <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+    <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+    <li><a href="#certifications" onclick="toggleMenu();">Certifications</a></li>
+    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+  </ul>
+  </header>
+    <section class="banner" id="home">
+      <div class="text-banner">
+        <h2>Hello, I'm <br><span style="color: rgb(51, 244, 238);">Arun Yadav</span></h2>
+        <a href="#about" class="btn">About Me</a>
+      </div>
+      <div>
+        <img src="images/arunyadav.jpg" alt="">
+        <br><br>
+        <div class="info">
+          <h4>CSE Grad | Full-Stack<br>Fond of Coding</h4><br>
+          <div class="apps">
+            <a href="" class="fa fa-instagram"></a>
+            <a href="https://x.com/arun_yadav55377" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://github.com/arunbyad123" class="fa fa-github" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/arun-yadav-a71711252/" class="fa fa-linkedin" target="_blank"></a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="aboutsec">
+      <div class="content">
+        <div class="contentbox">
+          <h3>Hi,<br> Iam Arun Yadav from Hyderabad</h3>
+          <p>Iam a student from Lovely Porfessional University, Punjab a passionate CSE student currently mastering Full Stack Development skilled in front-end, back-end, and databases With a deep understanding of the entire software development lifecycle from concept to deployment I enjoy turning complex problems into simple and elegant solutions. Whether it's building APIs, optimizing database queries, or crafting perfect user interfaces Responsively
+         </p>
+         <br>
+         <ul>
+          <li>Mastering Full-Stack Development</li>
+          <li>Data Structures and algorithms</li>
+         </ul>
+         <br>
+         <div>
+          <a href="ArunYadavCV.pdf" class="btn2" target="_blank">Download My CV</a>
+        </div>
+        </div>
+        </div>
+        <div>
+          <div class="slider">
+            <div class="slide-container">
+              <img src="images/project2.jpg" class="slide" data-caption="Some of My Works..." />
+              <div class="caption"></div>
+            </div>
+            <div class="slide-container">
+              <img src="images/project13.png" class="slide" data-caption="Some of My Works..." />
+              <div class="caption"></div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+        
+    </section>
+
+    <section class="skills-section" id="skills">
+      <h2>My Skills</h2>
+      <div class="main-boxes">
+        <div class="skillbox" data-type="frontend">Frontend</div>
+        <div class="skillbox" data-type="backend">Backend</div>
+        <div class="skillbox" data-type="database">Database</div>
+        <div class="skillbox" data-type="tools">Tools</div>
+      </div>
+      <div class="sub-skills" id="subSkillsContainer"></div>
+    </section>
+    
+    <!--projects-->
+    <section>
+      <h2 class="section-title">Projects</h2> 
+      <div class="projects one" id="projects">
+        <div class="project-info ">
+          <h3>WILDLIFE SERVICE PROJECT</h3>
+          <p>Project Overview: A frontend website is all about wildlife service in this user can see different wild life services across India and if user willing to help they can donate funds and volunteer by filling volunteer form. <br>
+            Key Features of the website: <br>
+            User Friendly.
+            Responsive website <br>
+            Tech: HTML, CSS, Java script, Bootstrap
+            </p>
+          <a href="https://github.com/arunbyad123/wildlife-servive-website">View Project Repository </a>
+        </div>
+        <div class="project-image phone-frame">
+          <img src="images/project13.png" alt="Project One Screenshot" />
+        </div>
+      </div>
+  
+      <!-- Project 2 -->
+      <div class="projects two" id="projects">
+        <div class="project-info">
+          <h3>Grocery Website</h3>
+          <p>Project Overview: Developed a dynamic and user- friendly grocery website. The website allows the new user when they sign-up to the website and the details of the user will be stored in the data base and allows user to login again with the same credentials. <br>
+            Key Features of the website: <br>
+            User Authentication.
+            Display of products with search and filter options. <br>
+            They can add, update or remove the products from the cart before they order. <br>
+            Tech: HTML, CSS, JavaScript, Nodejs, MongoDB
+            </p>
+          <a href="https://github.com/arunbyad123/grocery-website">View Project Repository</a>
+        </div>
+        <div class="project-image phone-frame">
+          <img src="images/project2.jpg" alt="Project Two Screenshot" />
+        </div>
+      </div>
+      <div class="heading">
+        <a href="https://github.com/arunbyad123?tab=repositories" class="btn" target="_blank">View more</a>
+      </div>
+    </section>
+
+    <!--certificationn section-->
+    <section class="certifications" id="certifications">
+      <h2 class="section-title">Certifications</h2>
+      <!-- Certification 1 -->
+      <div class="project">
+        <div class="project-info">
+          <h3>01. Data Structure and Algorithm</h3>
+          <h4>-by Sandeep Jain [GFG]</h4>
+        </div>
+        <div class="project-image zoom-effect phone-frame">
+          <img src="images/dsa.png" alt="Certification One" />
+        </div>
+      </div>
+    
+      <!-- Certification 2 -->
+      <div class="project reverse">
+        <div class="project-info">
+          <h3>02.ChatGPT Advanced Data analysis</h3>
+          <h4>-by Coursera</h4>
+        </div>
+        <div class="project-image zoom-effect phone-frame">
+          <img src="images/advance.png" alt="Certification Two" />
+        </div>
+      </div>
+    
+      <!-- Certification 3 -->
+      <div class="project">
+        <div class="project-info">
+          <h3>03.ChatGPT Intro to NLP AI</h3>
+          <h4>-by Coursera</h4>
+        </div>
+        <div class="project-image zoom-effect phone-frame">
+          <img src="images/nptl.png" alt="Certification Three" />
+        </div>
+      </div>
+    
+      <!-- Certification 4 -->
+      <div class="project reverse">
+        <div class="project-info">
+          <h3>04.GENAI For EveryOne</h3>
+          <h4>-by Coursera</h4>
+        </div>
+        <div class="project-image zoom-effect phone-frame">
+          <img src="images/genai everyone.png" alt="Certification Four" />
+        </div>
+      </div>
+    </section>
+    
+
+  <section class="contact" id="contact">
+    <div class="heading white">
+        <h2>Contact Me</h2>
+    </div>
+      <div class="content">
+        <div class="contactinfo">
+          <h3>Contact Informations</h3>
+          <div class="contactinfobox">
+            <div class="box">
+              <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="text">
+                <h3>Adress</h3>
+                <p>Cherlapally,Hyderabad<br>Telangana<br>501301</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fas fa-phone"></i></div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>(+91)6304364773</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fas fa-envelope"></i></div>
+              <div class="text">
+                <h3>Mail</h3>              <p>arunyadavbelli8gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formbox">
+        <form action="/submit-form" method="POST">
+          <h3>Message Me</h3>
+          <input type="text" name="" placeholder="Full Name">
+          <input type="email" name="" placeholder="Your email">
+          <textarea placeholder="Your message"></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+      </div>
+  </section>
+  <div class="copyright">
+    <div>Copyright 2025 © Online Tutorials. All Rights Reserved</div>
+    <div>
+    <a href="" class="fa fa-instagram"></a>
+    <a href="https://x.com/arun_yadav55377" class="fa fa-twitter" target="_blank"></a>
+    <a href="https://github.com/arunbyad123" class="fa fa-github" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/arun-yadav-a71711252/" class="fa fa-linkedin" target="_blank"></a>
+    </div>
+  </div>
+
+
+    <script type="text/javascript"> 
+    window.addEventListener('scroll', function(){
+    var header= document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0);    
+      });
+
+      function toggleMenu(){
+        var menutoggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menutoggle.classList.toggle('active');
+        menu.classList.toggle('active') 
+      }
+
+// about section js
+      let currentIndex = 0;
+const containers = document.querySelectorAll(".slide-container");
+let intervalId;
+let isPaused = false;
+
+function showSlide(index) {
+  containers.forEach((container, i) => {
+    container.classList.remove("active", "clicked");
+    container.querySelector(".info-box")?.remove(); // Clean up old info
+    if (i === index) {
+      container.classList.add("active");
+      const captionText = container.querySelector("img").dataset.caption;
+      container.querySelector(".caption").textContent = captionText;
+    }
+  });
+}
+
+function nextSlide() {
+  if (!isPaused) {
+    currentIndex = (currentIndex + 1) % containers.length;
+    showSlide(currentIndex);
+  }
+}
+
+function togglePauseAndShowInfo(container) {
+  const isAlreadyClicked = container.classList.contains("clicked");
+  isPaused = !isAlreadyClicked;
+
+  containers.forEach(c => c.classList.remove("clicked"));
+
+  if (!isAlreadyClicked) {
+    container.classList.add("clicked");
+
+    // Add info box
+    const info = document.createElement("div");
+    info.className = "info-box";
+    container.appendChild(info);
+  } else {
+    container.querySelector(".info-box")?.remove();
+  }
+}
+
+containers.forEach(container => {
+  container.addEventListener("click", () => {
+    togglePauseAndShowInfo(container);
+  });
+});
+
+// Initialize
+showSlide(currentIndex);
+intervalId = setInterval(nextSlide, 3000);
+
+
+// skills section js
+
+const skills = {
+  frontend: [
+    { name: 'HTML', level: 90 },
+    { name: 'CSS', level: 85 },
+    { name: 'JavaScript', level: 80 },
+    { name: 'React', level: 75 },
+    {name:'Bootstrap',level:75},
+    {name:'Tailwind',level:80},
+  ],
+  backend: [
+    { name: 'Node.js', level: 80 },
+    { name: 'Express.js', level: 75 },
+    { name: 'PHP', level: 60 },
+    { name: 'Java', level: 70 },
+  ],
+  database: [
+    { name: 'MongoDB', level: 75 },
+    { name: 'MySQL', level: 70 },
+  ],
+  tools: [
+    { name: 'Git & GitHub', level: 85 },
+    { name: 'VS Code', level: 90 },
+    {name:'figma',level:80},
+  ],
+};
+
+document.querySelectorAll('.skillbox').forEach(box => {
+  box.addEventListener('click', () => {
+    const type = box.dataset.type;
+    const subSkillsContainer = document.getElementById('subSkillsContainer');
+    subSkillsContainer.innerHTML = ''; // clear previous
+
+    skills[type].forEach(skill => {
+      const skillDiv = document.createElement('div');
+      skillDiv.classList.add('skill-bar');
+
+      const label = document.createElement('div');
+      label.classList.add('skill-label');
+      label.textContent = skill.name;
+
+      const bar = document.createElement('div');
+      bar.classList.add('bar');
+
+      const fill = document.createElement('div');
+      fill.classList.add('fill');
+      fill.style.width = '0'; // Start at 0
+
+      bar.appendChild(fill);
+      skillDiv.appendChild(label);
+      skillDiv.appendChild(bar);
+      subSkillsContainer.appendChild(skillDiv);
+
+      // Animate width after DOM insertion
+      setTimeout(() => {
+        fill.style.width = skill.level + '%';
+      }, 100);
+    });
+
+    subSkillsContainer.style.display = 'flex';
+  });
+});
+
+
+  
+    </script>
+</body>
+</html>
